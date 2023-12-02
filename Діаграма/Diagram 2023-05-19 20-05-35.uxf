@@ -1,0 +1,15 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>300</x><y>240</y><w>100</w><h>60</h></coordinates><panel_attributes>Department
+--
+Id: int
+DName: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>650</x><y>240</y><w>100</w><h>60</h></coordinates><panel_attributes>Task
+--
+Id: int
+TName: string</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>390</x><y>240</y><w>280</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=*
+m2=*
+виконують &gt;
+</panel_attributes><additional_attributes>10;20;260;20</additional_attributes></element><element><id>UMLClass</id><coordinates><x>460</x><y>380</y><w>120</w><h>80</h></coordinates><panel_attributes>DepartmentTask
+--
+Id: int
+DepartmentId: int
+TaskId: int</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>510</x><y>250</y><w>30</w><h>150</h></coordinates><panel_attributes>lt=.</panel_attributes><additional_attributes>10;130;10;10</additional_attributes></element></diagram>
